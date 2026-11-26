@@ -54,6 +54,12 @@ jobs:
           xcodebuild -list -project NailongMusic.xcodeproj
       - name: Run portable core tests
         run: bash scripts/test-core.sh
+      - name: Run native LX JavaScriptCore smoke test
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/nailong-build-logs"
+          bash scripts/test-lx-native.sh 2>&1 | tee "$RUNNER_TEMP/nailong-build-logs/lx-native.log"
       - name: Build iOS Simulator (native SDK typecheck)
         run: |
           set -euo pipefail
