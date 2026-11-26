@@ -54,6 +54,10 @@ jobs:
           xcodebuild -list -project NailongMusic.xcodeproj
       - name: Run portable core tests
         run: bash scripts/test-core.sh
+      - name: Run LX bridge protocol tests
+        run: node tests/LXBridgeTests.js
+      - name: Validate Xcode project and privacy metadata
+        run: plutil -lint NailongMusic.xcodeproj/project.pbxproj NailongMusic/Info.plist NailongMusic/Resources/PrivacyInfo.xcprivacy
       - name: Run native LX JavaScriptCore smoke test
         shell: bash
         run: |
