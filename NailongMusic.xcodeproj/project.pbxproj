@@ -1,0 +1,54 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+		2886F2D9B2584A08532769D4 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NailongMusic/Core/Lyrics.swift"; sourceTree = SOURCE_ROOT; };
+		F3F8FB542F1BD1C4251B3F62 = { isa = PBXBuildFile; fileRef = 2886F2D9B2584A08532769D4; };
+		A60574B46087A2D6BFC2735D = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NailongMusic/Core/Models.swift"; sourceTree = SOURCE_ROOT; };
+		1958E6BB569997AC41C35AB8 = { isa = PBXBuildFile; fileRef = A60574B46087A2D6BFC2735D; };
+		31F9CC2C28C4450398B764D5 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NailongMusic/NailongMusicApp.swift"; sourceTree = SOURCE_ROOT; };
+		8055696045EFEFDD82158B8F = { isa = PBXBuildFile; fileRef = 31F9CC2C28C4450398B764D5; };
+		37DD3378EC72A13317A50C2D = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NailongMusic/Services/Catalog.swift"; sourceTree = SOURCE_ROOT; };
+		1761A21B3E99033B0CB4CED6 = { isa = PBXBuildFile; fileRef = 37DD3378EC72A13317A50C2D; };
+		24F81FDE06A7B90C0C9EF6BC = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NailongMusic/Services/Library.swift"; sourceTree = SOURCE_ROOT; };
+		115EB6460348FD4101A5AF8C = { isa = PBXBuildFile; fileRef = 24F81FDE06A7B90C0C9EF6BC; };
+		821D52ECB11A240322AA2F52 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NailongMusic/Services/Player.swift"; sourceTree = SOURCE_ROOT; };
+		D13BD894D18DE1EB0DD85765 = { isa = PBXBuildFile; fileRef = 821D52ECB11A240322AA2F52; };
+		822647591BD4CE50DF896909 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NailongMusic/Services/SourceService.swift"; sourceTree = SOURCE_ROOT; };
+		CE5CE3753C53F778C0A22DCB = { isa = PBXBuildFile; fileRef = 822647591BD4CE50DF896909; };
+		28D4273C7D57647E5F587A12 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NailongMusic/UI/Browse.swift"; sourceTree = SOURCE_ROOT; };
+		14B9786E1F0F99F64097EB9F = { isa = PBXBuildFile; fileRef = 28D4273C7D57647E5F587A12; };
+		5087A4828551298B26B3F83F = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NailongMusic/UI/Components.swift"; sourceTree = SOURCE_ROOT; };
+		60BE3C0DD8AD19AEEA1FA4B1 = { isa = PBXBuildFile; fileRef = 5087A4828551298B26B3F83F; };
+		172032A34581C49BE4DA3403 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NailongMusic/UI/LibraryScreen.swift"; sourceTree = SOURCE_ROOT; };
+		529A7A4F0D691E82166124C1 = { isa = PBXBuildFile; fileRef = 172032A34581C49BE4DA3403; };
+		BF82750F7EBB2CDEB2068410 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NailongMusic/UI/NowPlaying.swift"; sourceTree = SOURCE_ROOT; };
+		4E32FD8A05991A7918B6380C = { isa = PBXBuildFile; fileRef = BF82750F7EBB2CDEB2068410; };
+		206F9CDC0760653953E0570E = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NailongMusic/UI/SettingsScreen.swift"; sourceTree = SOURCE_ROOT; };
+		D40029A9A1E6D47918E8695C = { isa = PBXBuildFile; fileRef = 206F9CDC0760653953E0570E; };
+		037C2B8EF00658AE485E2969 = { isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "NailongMusic/Resources/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
+		3B1EF98BDEDEBF2C5C53532A = { isa = PBXBuildFile; fileRef = 037C2B8EF00658AE485E2969; };
+		5A04B153E07759626B6A1F23 = { isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NailongMusic/Resources/PrivacyInfo.xcprivacy"; sourceTree = SOURCE_ROOT; };
+		9370E988271F118E729EF283 = { isa = PBXBuildFile; fileRef = 5A04B153E07759626B6A1F23; };
+		BC903C17A78FE68E0D2BE546 = { isa = PBXFileReference; lastKnownFileType = text; path = "NailongMusic/Resources/THIRD_PARTY_NOTICES.txt"; sourceTree = SOURCE_ROOT; };
+		69728CBCE3B5F4551B5FE163 = { isa = PBXBuildFile; fileRef = BC903C17A78FE68E0D2BE546; };
+		2451DB2951227CEE8DC17320 = { isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NailongMusic/Info.plist"; sourceTree = SOURCE_ROOT; };
+		7D1043473D55BFA90E8530D3 = { isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NailongMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B28B7AF69320201D1CF206EB = { isa = PBXGroup; children = (2886F2D9B2584A08532769D4, A60574B46087A2D6BFC2735D, 31F9CC2C28C4450398B764D5, 37DD3378EC72A13317A50C2D, 24F81FDE06A7B90C0C9EF6BC, 821D52ECB11A240322AA2F52, 822647591BD4CE50DF896909, 28D4273C7D57647E5F587A12, 5087A4828551298B26B3F83F, 172032A34581C49BE4DA3403, BF82750F7EBB2CDEB2068410, 206F9CDC0760653953E0570E, 037C2B8EF00658AE485E2969, 5A04B153E07759626B6A1F23, BC903C17A78FE68E0D2BE546, 2451DB2951227CEE8DC17320, FBDC4F23F93125BBEEAE800C,); sourceTree = "<group>"; };
+		FBDC4F23F93125BBEEAE800C = { isa = PBXGroup; children = (7D1043473D55BFA90E8530D3,); name = Products; sourceTree = "<group>"; };
+		BCE16DD0260827ECF338C787 = { isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (F3F8FB542F1BD1C4251B3F62, 1958E6BB569997AC41C35AB8, 8055696045EFEFDD82158B8F, 1761A21B3E99033B0CB4CED6, 115EB6460348FD4101A5AF8C, D13BD894D18DE1EB0DD85765, CE5CE3753C53F778C0A22DCB, 14B9786E1F0F99F64097EB9F, 60BE3C0DD8AD19AEEA1FA4B1, 529A7A4F0D691E82166124C1, 4E32FD8A05991A7918B6380C, D40029A9A1E6D47918E8695C,); runOnlyForDeploymentPostprocessing = 0; };
+		0189424A5A60FED329FA868E = { isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (3B1EF98BDEDEBF2C5C53532A, 9370E988271F118E729EF283, 69728CBCE3B5F4551B5FE163,); runOnlyForDeploymentPostprocessing = 0; };
+		7561BFB015D8F536760CB671 = { isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		0E8A3AD980EC179856012B7E = { isa = PBXNativeTarget; buildConfigurationList = 8FFE00F6E3AF318BDDE16B9E; buildPhases = (BCE16DD0260827ECF338C787, 7561BFB015D8F536760CB671, 0189424A5A60FED329FA868E,); buildRules = (); dependencies = (); name = NailongMusic; productName = NailongMusic; productReference = 7D1043473D55BFA90E8530D3; productType = "com.apple.product-type.application"; };
+		98F54143AB4E86B28C3AFEE0 = { isa = PBXProject; attributes = { LastSwiftUpdateCheck = 2700; LastUpgradeCheck = 2700; TargetAttributes = { 0E8A3AD980EC179856012B7E = { CreatedOnToolsVersion = 27.0; }; }; }; buildConfigurationList = 4F3D0910F2482DA8A703F458; compatibilityVersion = "Xcode 14.0"; developmentRegion = "zh-Hans"; hasScannedForEncodings = 0; knownRegions = ("zh-Hans",en,Base); mainGroup = B28B7AF69320201D1CF206EB; productRefGroup = FBDC4F23F93125BBEEAE800C; projectDirPath = ""; projectRoot = ""; targets = (0E8A3AD980EC179856012B7E,); };
+		B05BEBB064D0A38CFA49E7B1 = { isa = XCBuildConfiguration; buildSettings = { SDKROOT = iphoneos; IPHONEOS_DEPLOYMENT_TARGET = 16.0; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; SWIFT_VERSION = 5.0; ENABLE_USER_SCRIPT_SANDBOXING = YES; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; DEBUG_INFORMATION_FORMAT = dwarf; ENABLE_TESTABILITY = YES; }; name = Debug; };
+		258A38BC256D3BE0936BEE7F = { isa = XCBuildConfiguration; buildSettings = { ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor; PRODUCT_NAME = NailongMusic; PRODUCT_BUNDLE_IDENTIFIER = com.nailong.music.ios; MARKETING_VERSION = 1.0; CURRENT_PROJECT_VERSION = 1; INFOPLIST_FILE = NailongMusic/Info.plist; GENERATE_INFOPLIST_FILE = NO; IPHONEOS_DEPLOYMENT_TARGET = 16.0; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; CODE_SIGN_STYLE = Automatic; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks"; SUPPORTS_MACCATALYST = NO; SWIFT_STRICT_CONCURRENCY = minimal; SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG; }; name = Debug; };
+		8C8F75B80E1CEC91DA7341A3 = { isa = XCBuildConfiguration; buildSettings = { SDKROOT = iphoneos; IPHONEOS_DEPLOYMENT_TARGET = 16.0; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; SWIFT_VERSION = 5.0; ENABLE_USER_SCRIPT_SANDBOXING = YES; SWIFT_OPTIMIZATION_LEVEL = "-O"; DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym"; }; name = Release; };
+		AF08645F33FB7E7450F93573 = { isa = XCBuildConfiguration; buildSettings = { ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor; PRODUCT_NAME = NailongMusic; PRODUCT_BUNDLE_IDENTIFIER = com.nailong.music.ios; MARKETING_VERSION = 1.0; CURRENT_PROJECT_VERSION = 1; INFOPLIST_FILE = NailongMusic/Info.plist; GENERATE_INFOPLIST_FILE = NO; IPHONEOS_DEPLOYMENT_TARGET = 16.0; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; CODE_SIGN_STYLE = Automatic; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks"; SUPPORTS_MACCATALYST = NO; SWIFT_STRICT_CONCURRENCY = minimal; SWIFT_COMPILATION_MODE = wholemodule; VALIDATE_PRODUCT = YES; }; name = Release; };
+		4F3D0910F2482DA8A703F458 = { isa = XCConfigurationList; buildConfigurations = (B05BEBB064D0A38CFA49E7B1, 8C8F75B80E1CEC91DA7341A3,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		8FFE00F6E3AF318BDDE16B9E = { isa = XCConfigurationList; buildConfigurations = (258A38BC256D3BE0936BEE7F, AF08645F33FB7E7450F93573,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+	};
+	rootObject = 98F54143AB4E86B28C3AFEE0;
+}

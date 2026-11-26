@@ -1,0 +1,6 @@
+奶龙音乐 iOS 1.0
+应用图标来自用户上传的 NailongMusic Android 源码，按原矢量路径转换为 iOS 图标。
+数据模型、公开元数据映射和接口参考：奶龙音乐 Android 3.0、LX Music Mobile、CurrentMusicX。
+本工程未复制 Android Glasmio、COUI、Media3、React Native 或第三方字体资源。
+SwiftUI、Foundation、AVFoundation、MediaPlayer、UIKit、CryptoKit 为 Apple 系统框架。
+相关上游许可证保留在项目 LICENSES 目录。使用第三方音乐内容须遵守权利人授权和平台条款。
